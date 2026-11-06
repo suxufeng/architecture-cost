@@ -4,3 +4,6 @@ node_modules/
 .DS_Store
 Thumbs.db
 *.log
+
+# 内部工作记录，不公开
+.workbuddy/
