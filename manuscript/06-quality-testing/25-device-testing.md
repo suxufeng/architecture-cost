@@ -16,7 +16,7 @@ title: 第 24 章 · 设备侧：型式检验、逐台出厂、批次抽检
 
 ## 参与
 
-- 这一章有没有该回答而没回答的问题？→ 开 [Issue](https://github.com/your-name/architecture-cost/issues)
+- 这一章有没有该回答而没回答的问题？→ 开 [Issue](https://github.com/suxufeng/architecture-cost/issues)
 - 发现事实或引用错误？→ 直接提 PR，或指出标准条款号
 
 ---

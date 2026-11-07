@@ -1,14 +1,14 @@
 ---
-title: 第 30 章 · 投标资格与替换成本
+title: 第 21 章 · 可制造与可测试：DFM / DFT
 ---
 
-# 第 30 章　投标资格与替换成本
+# 第 21 章　可制造与可测试：DFM / DFT
 
 > 状态：大纲已定　·　计划 8,500 字
 
 **主论断**
 
-能不能投标，在选型那一天就定了。
+缺陷能不能被造出来、能不能被发现，取决于设计有没有留观测点与工艺窗口。
 
 ## 本章要点
 
@@ -16,7 +16,7 @@ title: 第 30 章 · 投标资格与替换成本
 
 ## 参与
 
-- 这一章有没有该回答而没回答的问题？→ 开 [Issue](https://github.com/your-name/architecture-cost/issues)
+- 这一章有没有该回答而没回答的问题？→ 开 [Issue](https://github.com/suxufeng/architecture-cost/issues)
 - 发现事实或引用错误？→ 直接提 PR，或指出标准条款号
 
 ---

@@ -8,7 +8,7 @@ const ch = (folder: string, slug: string, text: string) => ({
 export default defineConfig({
   lang: 'zh-CN',
   title: '架构的代价',
-  description: '互联网、物联网与智能体的六十个判断点',
+  description: '互联网、物联网与智能体的六十六个判断点',
   base: '/',
   cleanUrls: true,
   lastUpdated: true,
@@ -16,7 +16,7 @@ export default defineConfig({
     ['meta', { name: 'author', content: '苏煦烽' }],
     ['meta', { property: 'og:type', content: 'book' }],
     ['meta', { property: 'og:title', content: '架构的代价' }],
-    ['meta', { property: 'og:description', content: '互联网、物联网与智能体的六十个判断点' }]
+    ['meta', { property: 'og:description', content: '互联网、物联网与智能体的六十六个判断点' }]
   ],
 
   themeConfig: {
@@ -92,25 +92,32 @@ export default defineConfig({
         text: '第六篇 · 质量与测评',
         collapsed: false,
         items: [
-          ch('06-quality-testing', '20-defect-origin', '20　缺陷从哪来：设计、工艺、演化'),
-          ch('06-quality-testing', '21-quality-cost', '21　质量成本：检验只能证明你花了多少钱'),
-          ch('06-quality-testing', '22-supply-quality', '22　供应链质量与在网质量：三个故障率'),
-          ch('06-quality-testing', '23-three-criteria', '23　三套判据不可移植'),
-          ch('06-quality-testing', '24-device-testing', '24　设备侧：型式检验、逐台出厂、批次抽检'),
-          ch('06-quality-testing', '25-software-testing', '25　软件与智能体侧：测的是假设，不是功能'),
-          ch('06-quality-testing', '26-review-acceptance', '26　评审与验收：谁签字，谁承担')
+          ch('06-quality-testing', '20-dfx-overview', '20　DFX 总论：设计同时锁定质量与成本'),
+          ch('06-quality-testing', '21-dfm-dft', '21　可制造与可测试：DFM / DFT'),
+          ch('06-quality-testing', '22-dfs-dfr', '22　可服务与可靠：DFS / DFR'),
+          ch('06-quality-testing', '23-supply-quality', '23　供应链与在网质量：三个故障率'),
+          ch('06-quality-testing', '24-three-criteria', '24　三套判据不可移植'),
+          ch('06-quality-testing', '25-device-testing', '25　设备侧：型式检验、逐台出厂、批次抽检'),
+          ch('06-quality-testing', '26-software-testing', '26　软件与智能体侧：测的是假设，不是功能'),
+          ch('06-quality-testing', '27-review-acceptance', '27　评审与验收：谁签字，谁承担')
         ]
       },
       {
-        text: '第七篇 · 商业化',
-        collapsed: true,
+        text: '第七篇 · 成本与商业化',
+        collapsed: false,
         items: [
-          ch('07-commercial', '27-cost-attribution', '27　成本与归属：Token 税与自研性价比'),
-          ch('07-commercial', '28-quotation', '28　报价单即架构图'),
-          ch('07-commercial', '29-delivery-warranty', '29　交付成本与维保责任'),
-          ch('07-commercial', '30-qualification', '30　投标资格与替换成本'),
-          ch('07-commercial', '31-eight-lenses', '31　八个视角，六十个问题')
+          ch('07-commercial', '28-tco-structure', '28　TCO 的结构：五段成本，架构决定哪一段'),
+          ch('07-commercial', '29-tco-control', '29　TCO 的把控：四种手段与它们改变的段'),
+          ch('07-commercial', '30-cost-attribution', '30　成本与归属：Token 税与自研性价比'),
+          ch('07-commercial', '31-quotation', '31　报价单即架构图'),
+          ch('07-commercial', '32-delivery-warranty', '32　交付成本与维保责任'),
+          ch('07-commercial', '33-qualification', '33　投标资格与替换成本')
         ]
+      },
+      {
+        text: '收口',
+        collapsed: false,
+        items: [ch('07-commercial', '34-eight-lenses', '34　八个视角，六十六个问题')]
       }
     ],
 

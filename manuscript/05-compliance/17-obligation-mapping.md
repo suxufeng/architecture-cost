@@ -16,7 +16,7 @@ title: 第 17 章 · 义务识别：你到底适用哪些法
 
 ## 参与
 
-- 这一章有没有该回答而没回答的问题？→ 开 [Issue](https://github.com/your-name/architecture-cost/issues)
+- 这一章有没有该回答而没回答的问题？→ 开 [Issue](https://github.com/suxufeng/architecture-cost/issues)
 - 发现事实或引用错误？→ 直接提 PR，或指出标准条款号
 
 ---
