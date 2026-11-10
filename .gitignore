@@ -8,3 +8,6 @@ Thumbs.db
 
 # 内部工作记录，不公开
 .workbuddy/
+
+# VitePress 构建中间产物
+.vitepress/.temp/
