@@ -11,6 +11,7 @@ export default defineConfig({
   description: '互联网、物联网与智能体的六十六个判断点',
   base: '/',
   cleanUrls: true,
+  outDir: './site',
   lastUpdated: true,
   head: [
     ['meta', { name: 'author', content: '苏煦烽' }],
