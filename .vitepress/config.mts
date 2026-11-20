@@ -9,7 +9,8 @@ export default defineConfig({
   lang: 'zh-CN',
   title: '架构的代价',
   description: '互联网、物联网与智能体的六十六个判断点',
-  base: '/',
+  // 本地与自托管用 '/'；GitHub Pages 项目页由 VITEPRESS_BASE 覆盖为 '/architecture-cost/'
+  base: process.env.VITEPRESS_BASE || '/',
   cleanUrls: true,
   outDir: './site',
   lastUpdated: true,

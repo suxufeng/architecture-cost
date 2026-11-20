@@ -11,3 +11,6 @@ Thumbs.db
 
 # VitePress 构建中间产物
 .vitepress/.temp/
+
+# 本地凭据，绝不入库
+.env*
