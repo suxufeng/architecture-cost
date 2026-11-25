@@ -26,6 +26,7 @@ export default defineConfig({
       { text: '目录', link: '/' },
       { text: '前言', link: '/manuscript/00-preface' },
       { text: '大纲', link: '/outline/03_全书大纲' },
+      { text: '引用台账', link: '/references/' },
       {
         text: '参与',
         items: [
@@ -120,6 +121,11 @@ export default defineConfig({
         text: '收口',
         collapsed: false,
         items: [ch('07-commercial', '34-eight-lenses', '34　八个视角，六十六个判断点')]
+      },
+      {
+        text: '附录',
+        collapsed: false,
+        items: [{ text: '引用台账', link: '/references/' }]
       }
     ],
 
