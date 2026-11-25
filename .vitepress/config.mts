@@ -119,7 +119,7 @@ export default defineConfig({
       {
         text: '收口',
         collapsed: false,
-        items: [ch('07-commercial', '34-eight-lenses', '34　八个视角，六十六个问题')]
+        items: [ch('07-commercial', '34-eight-lenses', '34　八个视角，六十六个判断点')]
       }
     ],
 
