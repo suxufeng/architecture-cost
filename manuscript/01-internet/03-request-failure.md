@@ -342,5 +342,5 @@ title: 第 3 章 · 服务端边界：一次请求的七种死法
 
 ## 参与
 
-- 这一章有没有该回答而没回答的问题？→ 开 [Issue](https://github.com/suxufeng/architecture-cost/issues)
+- 这一章有没有该回答而没回答的问题？→ 在本项目仓库开 Issue
 - 发现事实或引用错误？→ 直接提 PR，或指出标准条款号

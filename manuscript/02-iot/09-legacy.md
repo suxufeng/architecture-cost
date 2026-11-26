@@ -412,5 +412,5 @@ title: 第 9 章 · 存量：改造比新建难
 
 ## 参与
 
-- 这一章有没有该回答而没回答的问题？→ 开 [Issue](https://github.com/suxufeng/architecture-cost/issues)
+- 这一章有没有该回答而没回答的问题？→ 在本项目仓库开 Issue
 - 发现事实或引用错误？→ 直接提 PR，或指出标准条款号

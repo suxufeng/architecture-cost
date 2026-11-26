@@ -13,6 +13,8 @@ export default defineConfig({
   base: process.env.VITEPRESS_BASE || '/',
   cleanUrls: true,
   outDir: './site',
+  // 内部自查报告与历史规划归档只在仓库源码留痕，不发布到公开站点
+  srcExclude: ['audit/**', 'outline/99_*'],
   lastUpdated: true,
   head: [
     ['meta', { name: 'author', content: '老苏' }],

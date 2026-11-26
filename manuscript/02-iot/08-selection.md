@@ -428,5 +428,5 @@ EOL 之后的动作叫 Last Time Buy：在原厂停产前一次性买断剩余�
 
 ## 参与
 
-- 这一章有没有该回答而没回答的问题？→ 开 [Issue](https://github.com/suxufeng/architecture-cost/issues)
+- 这一章有没有该回答而没回答的问题？→ 在本项目仓库开 Issue
 - 发现事实或引用错误？→ 直接提 PR，或指出标准条款号
