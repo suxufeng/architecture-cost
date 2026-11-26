@@ -2,7 +2,7 @@
   "name": "architecture-cost",
   "version": "0.1.0",
   "private": true,
-  "description": "《架构的代价》——互联网、物联网与智能体的六十个判断点",
+  "description": "《架构的代价》——互联网、物联网与智能体的六十六个判断点",
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",

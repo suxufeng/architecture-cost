@@ -27,6 +27,7 @@ export default defineConfig({
       { text: '前言', link: '/manuscript/00-preface' },
       { text: '大纲', link: '/outline/03_全书大纲' },
       { text: '引用台账', link: '/references/' },
+      { text: '关于作者', link: '/about' },
       {
         text: '参与',
         items: [
@@ -125,7 +126,10 @@ export default defineConfig({
       {
         text: '附录',
         collapsed: false,
-        items: [{ text: '引用台账', link: '/references/' }]
+        items: [
+          { text: '引用台账', link: '/references/' },
+          { text: '关于作者', link: '/about' }
+        ]
       }
     ],
 

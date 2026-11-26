@@ -28,6 +28,7 @@ outline/        大纲、写作规范、来源规范、取证清单
 references/     引用台账（随写作增长）
 assets/         图片（优先用 Mermaid 源码，不放 PNG）
 index.md        站点首页
+about.md        作者介绍
 .vitepress/     站点配置
 ```
 
@@ -36,7 +37,7 @@ index.md        站点首页
 ```bash
 npm install
 npm run dev      # 本地预览 http://localhost:5173
-npm run build    # 构建静态站到 .vitepress/dist
+npm run build    # 构建静态站到 site/
 ```
 
 ## 关于案例
