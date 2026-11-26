@@ -15,7 +15,7 @@ export default defineConfig({
   outDir: './site',
   lastUpdated: true,
   head: [
-    ['meta', { name: 'author', content: '苏煦烽' }],
+    ['meta', { name: 'author', content: '老苏' }],
     ['meta', { property: 'og:type', content: 'book' }],
     ['meta', { property: 'og:title', content: '架构的代价' }],
     ['meta', { property: 'og:description', content: '互联网、物联网与智能体的六十六个判断点' }]
@@ -155,7 +155,7 @@ export default defineConfig({
     lastUpdatedText: '最后更新',
     footer: {
       message: '文字采用 CC BY-NC-SA 4.0 许可 · 欢迎指出错误',
-      copyright: '© 2026 苏煦烽'
+      copyright: '© 2026 老苏'
     }
   }
 })

@@ -69,4 +69,4 @@ npm run build    # 构建静态站到 site/
 
 文字采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh) 许可：可转载、改编、翻译；需署名、非商业、衍生作品同许可。
 
-© 2026 苏煦烽
+© 2026 老苏
